@@ -2,6 +2,12 @@
 
 Ce script Python permet de convertir un fichier CycloneDX (`obom.json`) généré avec [`cdxgen`](https://cyclonedx.github.io/cdxgen/#/CLI) en un format compatible avec Cyberwatch.
 
+## Installation
+
+```
+git clone https://github.com/Galeax/cyberwatch-sbom-adapter.git
+```
+
 ## ▶️ Utilisation
 
 1. Placer les fichiers générés avec `cdxgen -t os` dans le dossier `inputjson`
